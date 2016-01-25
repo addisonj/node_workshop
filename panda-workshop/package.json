@@ -1,6 +1,6 @@
 {
   "name": "panda-shop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A workshop for pandamonium on node, covering various things!",
   "main": "./panda-shop.js",
   "scripts": {
@@ -18,6 +18,7 @@
   "dependencies": {
     "async": "^1.5.2",
     "babel": "5.8.29",
+    "babel-core": "^5.8.35",
     "babel-runtime": "^5.8.35",
     "bl": "^1.0.1",
     "express": "^4.13.4",
