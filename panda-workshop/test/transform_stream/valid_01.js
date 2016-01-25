@@ -1,8 +1,9 @@
 const fs = require('fs')
-{Transform} = require('stream')
+const {Transform} = require('stream')
 
 class FooToBar extends Transform {
   constructor() {
+    super()
   }
   _transform(chunk, encoding, done) {
     let toChange = chunk
@@ -17,6 +18,6 @@ class FooToBar extends Transform {
   }
 }
 
-const readableStream = fs.createReadStream(process.arg[2])
+const readableStream = fs.createReadStream(process.argv[2])
 readableStream.pipe(new FooToBar()).pipe(process.stdout)
 
