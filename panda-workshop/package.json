@@ -1,0 +1,32 @@
+{
+  "name": "panda-shop",
+  "version": "1.0.0",
+  "description": "A workshop for pandamonium on node, covering various things!",
+  "main": "./panda-shop.js",
+  "scripts": {
+    "test": "workshopper-adventure-test"
+  },
+  "bin": {
+    "panda-shop": "./bin/panda-shop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/addisonj/node_workshop.git"
+  },
+  "author": "Addison Higham <addisonj@gmail.com> (github.com/addisonj)",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "5.8.29",
+    "babel-runtime": "^5.8.35",
+    "mkdirp": "^0.5.1",
+    "q": "^1.4.1",
+    "rimraf": "^2.5.1",
+    "workshopper-adventure": "^4.4.3",
+    "workshopper-exercise": "^2.5.3",
+    "workshopper-wrappedexec": "^0.1.2"
+  },
+  "devDependencies": {
+    "workshopper-adventure-test": "^1.0.2"
+  },
+  "preferGlobal": true
+}
