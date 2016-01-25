@@ -16,14 +16,24 @@
   "author": "Addison Higham <addisonj@gmail.com> (github.com/addisonj)",
   "license": "ISC",
   "dependencies": {
+    "async": "^1.5.2",
     "babel": "5.8.29",
     "babel-runtime": "^5.8.35",
+    "bl": "^1.0.1",
+    "faker": "^3.0.1",
+    "glob": "^6.0.4",
+    "lodash": "^4.0.0",
     "mkdirp": "^0.5.1",
+    "moment": "^2.11.1",
     "q": "^1.4.1",
     "rimraf": "^2.5.1",
+    "split": "^1.0.0",
+    "stomp-proxy": "0.0.2",
+    "through2": "^2.0.0",
     "workshopper-adventure": "^4.4.3",
     "workshopper-exercise": "^2.5.3",
-    "workshopper-wrappedexec": "^0.1.2"
+    "workshopper-wrappedexec": "^0.1.2",
+    "ws": "^1.0.1"
   },
   "devDependencies": {
     "workshopper-adventure-test": "^1.0.2"

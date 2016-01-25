@@ -23,6 +23,8 @@ var pandaShop = require('workshopper-adventure')({
 
 pandaShop.addAll([
   'TRANSFORM_STREAM',
+  'CSV_TO_JSON',
+  'STOMP_PROXY'
 ])
 
 module.exports = pandaShop
